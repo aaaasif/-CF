@@ -1,9 +1,12 @@
 import React from 'react';
+import img from "./../../assets/football-website-image/AboutUs.jpg"
 
 const AboutUs = () => {
     return (
         <div>
-            <h1>About Us</h1>
+            <div>
+            <img src={img} alt="Paris" width="500" height="300"/>
+            </div>
         </div>
     );
 };
