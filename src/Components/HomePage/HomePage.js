@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 // import AboutUs from '../AboutUs/AboutUs';
 // import Banner from '../Banner/Banner';
 import NavBar from '../NavBar/NavBar';
@@ -11,6 +12,7 @@ const HomePage = () => {
             {/* <Banner/> */}
             {/* <AboutUs/> */}
             <Service/>
+            <Footer/>
         </div>
     );
 };
