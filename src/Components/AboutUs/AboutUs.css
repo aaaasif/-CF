@@ -1,3 +1,8 @@
-img{
-    border-radius: 8px;
+.about-img{
+    border-radius: 100px;
+    
+}
+.aboutUs-text{
+    width: 400px;
+    
 }
