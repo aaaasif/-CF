@@ -3,9 +3,9 @@ import "./Banner.css"
 
 const Banner = () => {
     return (
-        <div>
-            <h1>This is banner</h1>
-        </div>
+        <>
+            <h1>This is Banner</h1>
+        </>
     );
 };
 
