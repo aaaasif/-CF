@@ -23,7 +23,31 @@ const Footer = () => {
                                 <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.</p>
                             </div>
                             <div>
-                                
+                            <h5 className="text-muted mt-4">Follow us on</h5>
+                            <div>
+                              <ul className="social-icons">
+                                <li>
+                                  <a href="/d">
+                                    <i class="fab fa-youtube"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="/d">
+                                    <i class="fab fa-facebook-square"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="/d">
+                                    <i class="fab fa-instagram"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="/d">
+                                    <i class="fab fa-twitter-square"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
                             </div>
                       </Col>
                 
