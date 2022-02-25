@@ -1,5 +1,5 @@
 .aboutImage{
-    background-image: url('../../../image/football-website-image/image.jpg');
+    background-image: url('./../../assets/football-website-image/image.jpg');
     background-size: cover;
     background-position: center;
     height: 50vh;
