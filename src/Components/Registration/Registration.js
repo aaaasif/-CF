@@ -8,7 +8,7 @@ const Registration = () => {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 g-2 container">
           <div className="col">
             <div className="card">
-              <div className="card-body">
+              <div className="registered-body">
                 <h5 className="card-title">Registered intermediaries</h5>
                 <div className="registred_text">
                   <p>
