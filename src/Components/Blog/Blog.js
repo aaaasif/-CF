@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Blog.css"
-import logo4 from './../../assets/football-website-image/Group 1000001769.png';
-import logo5 from '../../images/logo5.png';
-import logo3 from '../../images/logo3.png';
+import logo5 from './../../assets/football-website-image/Group 1000001769.png';
+import logo4 from './../../assets/football-website-image/Group 1000001770.png';
+import logo3 from './../../assets/football-website-image/Group 1000001768.png';
 
 const Blog = () => {
     return (
