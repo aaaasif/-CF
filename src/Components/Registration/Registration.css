@@ -1,12 +1,14 @@
 
-
+.left-side{
+  width: 80vh;
+  height: 70vh;
+  background-color: #F5F5F5;
+}
 .registred_text {
-    width: 117%;
-    height: 84%;
+    width: 70vh;
     font-family: "Roboto Serif", sans-serif;
     left: 0px;
     margin-top: 51px;
-    background: #f5f5f5;
   }
   .card{
     background: transparent;
@@ -16,7 +18,7 @@
   }
   .registred_text_role div {
     width: 25px;
-    height: 25px;
+    height: 17px;
     margin-top: 10px;
     margin-right: 15px;
     background: #8dc63e;
@@ -24,6 +26,7 @@
   }
   .pc_img{
     padding: 0;
+    margin-right: 0px;
   }
   .btn_text_2 {
     left: 52px;
@@ -34,4 +37,5 @@
     color: white;
     background: linear-gradient(89.87deg, #fe5266 1.09%, #fe8b15 99.39%);
   }
+  
   

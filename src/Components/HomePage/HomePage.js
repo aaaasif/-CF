@@ -18,7 +18,7 @@ const HomePage = () => {
             <Blog/>
             <Registration/>
             <Update/>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     );
 };

@@ -8,7 +8,7 @@ import serviceFive from './../../assets/Service image/physiotherapy 1.png';
 import './Service.css';
 const Service = () => {
     return (
-        <Container>
+        <Container className='mb-5'>
             <div style={{marginTop:'100px'}} className='serviceText '>
                 <h3 className='d-flex justify-content-center'>Services We Offer</h3>
                 <h6 className='d-flex justify-content-center '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu viverra et quam tellus id posuere <br /> elementum augue ullamcorper ac egestas blandit.</h6>

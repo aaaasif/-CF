@@ -5,8 +5,8 @@ import "./Registration.css"
 const Registration = () => {
     return (
         <div>
-        <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 g-2 d-flex justify-content-between container">
-          <div className="col">
+        <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 g-2">
+          <div className="col left-side">
             <div className="card">
               <div className="registered-body">
                 <h5 className="card-title">Registered intermediaries</h5>

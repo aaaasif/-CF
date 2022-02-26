@@ -7,8 +7,8 @@ const NavBar = () => {
       <nav>
       <input type="checkbox" id="check" />
       <label for="check">
-        <i class="fas fa-bars" id="btn"></i>
-        <i class="fas fa-times" id="cancel"></i>
+        <i  className="fas fa-bars pb-2" id="btn"></i>
+        <i className="fas fa-times " id="cancel"></i>
       </label>
         <img src={logo} alt="" />
         <span className="text">#CF</span>

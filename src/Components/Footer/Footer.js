@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import logo from "./../../assets/football-website-image/logo.png"
+import "./Footer.css"
 
 const Footer = () => {
     return (
@@ -24,8 +25,8 @@ const Footer = () => {
                             </div>
                             <div>
                             <h5 className="text-muted mt-4">Follow us on</h5>
-                            <div>
-                              <ul className="social-icons">
+                            <div className=''>
+                              <ul className="social-icons d-flex justify-content-start">
                                 <li>
                                   <a href="/d">
                                     <i className="fab fa-youtube"></i>

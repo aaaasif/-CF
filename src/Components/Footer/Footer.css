@@ -1,11 +1,15 @@
+.footer-top p{
+  color: white;
+}
 .footer {
-    background-color: black;
+    background-color: #232323;
     color: white;
     padding: 10px 0;
+    text-align: right;
+    border-top: 2px solid red;
   }
-  .footer 
   .footer-top {
-    background-image: url(./../../assets/football-website-image/Rectangle12.png) !important;
+    background-color: #232323 !important;
   }
   .social-icons {
     margin: 0;
@@ -60,16 +64,16 @@
   }
   .information li a {
     text-decoration: none;
-    color: #b0bec5;
+    color: white;
     transition: 0.3s ease-in;
   }
   .information li a:hover {
     text-decoration: underline;
-    color: var(--secondary);
+    color: white;
   }
   .contact-info li {
     text-decoration: none;
-    color: #b0bec5;
+    color: white;
     transition: 0.3s ease-in;
   }
   .contact-info li i {
