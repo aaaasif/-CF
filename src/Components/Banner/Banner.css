@@ -1,7 +1,27 @@
-section{
-    background-image: url(./../../assets/football-website-image/Group\ 11.png);
-    
-}
-.Banner_text{
-    margin-top: 130px;
-}
+.banner_section {
+    background-image: url("./../../assets/football-website-image/Group11.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 240px 0;
+    padding-left: 30px;
+  }
+  
+  .banner_parent h1,
+  p {
+    font-family: "Roboto Serif", sans-serif;
+  }
+  .btn_text {
+    background: linear-gradient(89.87deg, #fe5266 1.09%, #fe8b15 99.39%);
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+    color: white !important;
+    height: 54px;
+    width: 187px;
+    margin-bottom: -10rem;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Roboto Serif", sans-serif;
+  }

@@ -3,8 +3,9 @@
     color: white;
     padding: 10px 0;
   }
+  .footer 
   .footer-top {
-    background: rgb(34, 33, 33);
+    background-image: url(./../../assets/football-website-image/Rectangle12.png) !important;
   }
   .social-icons {
     margin: 0;
@@ -12,6 +13,9 @@
     list-style: none;
     display: flex;
     justify-content: flex-start;
+  }
+  li, i, a{
+    text-decoration: none;
   }
   .social-icons li {
     margin: 0 10px;

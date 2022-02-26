@@ -28,22 +28,22 @@ const Footer = () => {
                               <ul className="social-icons">
                                 <li>
                                   <a href="/d">
-                                    <i class="fab fa-youtube"></i>
+                                    <i className="fab fa-youtube"></i>
                                   </a>
                                 </li>
                                 <li>
                                   <a href="/d">
-                                    <i class="fab fa-facebook-square"></i>
+                                    <i className="fab fa-facebook-square"></i>
                                   </a>
                                 </li>
                                 <li>
                                   <a href="/d">
-                                    <i class="fab fa-instagram"></i>
+                                    <i className="fab fa-instagram"></i>
                                   </a>
                                 </li>
                                 <li>
                                   <a href="/d">
-                                    <i class="fab fa-twitter-square"></i>
+                                    <i className="fab fa-twitter-square"></i>
                                   </a>
                                 </li>
                               </ul>
@@ -53,41 +53,44 @@ const Footer = () => {
                 
                       <Col sm={12} md={6} lg={3}>
                           <h4 className="col-title">CUSTOMER SERVICE</h4>
-                          <ul className="information">
+                          <ul className="Quick Links">
                             <li>
-                              <a href="/home">FAQs</a>
+                              <a href="/home">Portfolio</a>
                             </li>
                             <li>
-                              <a href="/home">MyBata</a>
+                              <a href="/home">Blogs</a>
                             </li>
                             <li>
-                              <a href="/home">Store Locator</a>
+                              <a href="/home">About</a>
                             </li>
                             <li>
-                              <a href="/home">All About Feet</a>
+                              <a href="/home">Press</a>
                             </li>
                             <li>
                               <a href="/home">Contact Info</a>
                             </li>
                             <li>
-                              <a href="/home">Delivery</a>
+                              <a href="/home">Careers</a>
                             </li>
                           </ul>
                       </Col>
                       <Col sm={12} md={6} lg={3}>
-                          <h4 className="col-title">Reach us</h4>
+                          <h4 className="col-title">Services</h4>
                           <ul className="information contact-info">
-                            <li>
-                              <i className="fas fa-map-marker-alt"></i>
-                              Naogaon, Dhaka, Bangladesh
+                          <li>
+                              <a href="/home">UX/UI Design</a>
                             </li>
                             <li>
-                              <i className="fas fa-envelope"></i>
-                              Official: bata@gmail.com
+                              <a href="/home">App Development</a>
                             </li>
                             <li>
-                              <i className="fas fa-phone"></i>
-                              Helpline: +8801763-251119
+                              <a href="/home">Web Development</a>
+                            </li>
+                            <li>
+                              <a href="/home">Quality Assurance</a>
+                            </li>
+                            <li>
+                              <a href="/home">Machine Learning</a>
                             </li>
                           </ul>
                       </Col>
