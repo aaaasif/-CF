@@ -6,11 +6,11 @@ import "./AboutUs.css"
 const AboutUs = () => {
     return (
         <Container style={{marginTop:'80px'}}>
-         <Row>
-            <Col className='aboutImage' xs={12} md={6}>
-                    <img src={aboutLogo} alt="" className='aboutLogo'/>
+         <Row className='d-flex justify-content-evenly'>
+            <Col className='aboutImage' xs={12} md={7}>
+                    <img className='d-flex align-items-center justify-content-center aboutLogo' src={aboutLogo} alt="" />
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={5}>
                     <div className='aboutText'>
                     <h6>About Us</h6>
                     <h4>We are the best Football <br /> Agency</h4>

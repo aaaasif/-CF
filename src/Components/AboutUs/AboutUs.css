@@ -2,13 +2,12 @@
     background-image: url('./../../assets/football-website-image/image.jpg');
     background-size: cover;
     background-position: center;
+    width: 80vh;
     height: 50vh;
     border-radius: 30px;
 }
 .aboutLogo{
-    width: 195.55px;
-    height: 195.9px;
-    margin-top: 60px;
+    margin-left: 25%;
 }
 .learnMoreBtn{
     background-image: linear-gradient(90deg, #FE5266 0%, #FE8B15 100.79%);
@@ -18,6 +17,8 @@
 }
 .aboutText{
     text-align: left;
+    margin-left: 50px;
+    width: 400px;
 }
 .aboutText h6{
    font-weight: 700;
