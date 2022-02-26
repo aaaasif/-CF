@@ -5,6 +5,7 @@ import Banner from '../Banner/Banner';
 import NavBar from '../NavBar/NavBar';
 import Service from '../Service/Service';
 import Blog from '../Blog/Blog';
+import Registration from '../Registration/Registration';
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <AboutUs/>
             <Service/>
             <Blog/>
+            <Registration/>
             <Footer/>
         </div>
     );
