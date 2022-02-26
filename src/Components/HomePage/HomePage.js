@@ -6,6 +6,7 @@ import NavBar from '../NavBar/NavBar';
 import Service from '../Service/Service';
 import Blog from '../Blog/Blog';
 import Registration from '../Registration/Registration';
+import Update from '../../Update/Update';
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Service/>
             <Blog/>
             <Registration/>
+            <Update/>
             {/* <Footer/> */}
         </div>
     );
