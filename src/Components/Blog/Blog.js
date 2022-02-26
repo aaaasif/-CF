@@ -9,7 +9,7 @@ const Blog = () => {
         <section className="blog_section">
         <div className="container blog-body">
           <div className="row">
-            <div className="col  row-col-md-6 row-col-lg-6 mt-3">
+            <div className="col row-col-sm-12 row-col-md-6 row-col-lg-6 mt-3">
               <div className="h-100 mt-5 blog-text">
                 <h1>Blogs</h1>
                 <p>
@@ -18,9 +18,9 @@ const Blog = () => {
                 <button className="btn btn_text-2">See All</button>
               </div>
             </div>
-            <div className="col  row-col-md-6 row-col-lg-6 mt-3">
+            <div className="col row-col-sm-12 row-col-md-6 row-col-lg-6 mt-3">
               <div className="row">
-                <div className="col row-col-md-6 row-col-lg-6">
+                <div className="col row-col-sm-6 row-col-md-6 row-col-lg-6">
                   <div className="card h-100">
                       <div className="card1">
                         <img className="img-fluid imgs" src={logo5} alt="" />
@@ -31,7 +31,7 @@ const Blog = () => {
                     </div>
                   </div>
 
-                  <div className="col  row-col-md-6 row-col-lg-6">
+                  <div className="col row-col-sm-6 row-col-md-6 row-col-lg-6">
                     <div className="card h-100">
                       <img className="gallery " src={logo3} alt="" />
                     </div>

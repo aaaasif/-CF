@@ -16,6 +16,8 @@ const HomePage = () => {
             <AboutUs/>
             <Service/>
             <Blog/>
+            <br/>
+            <br/>
             <Registration/>
             <Update/>
             <Footer/>

@@ -1,3 +1,7 @@
+/* .logo-name{
+  color: white;
+  padding-top: 50px !important;
+} */
 .footer-top p{
   color: white;
 }
@@ -6,7 +10,10 @@
     color: white;
     padding: 10px 0;
     text-align: right;
-    border-top: 2px solid red;
+    border-top: 2px solid white;
+  }
+  .footer p{
+    padding-right: 20px;
   }
   .footer-top {
     background-color: #232323 !important;
@@ -24,19 +31,25 @@
   .social-icons li {
     margin: 0 10px;
   }
+  .social-icons li i{
+    color: white;
+    padding: 7px;
+    background-color: rgb(56, 51, 51);
+    border-radius: 50%;
+  }
   .social-icons li:nth-child(1) {
     margin-left: 0;
   }
-  .social-icons li:nth-child(1) i {
+  .social-icons li:nth-child(1) i:hover {
     color: #ff0000;
   }
-  .social-icons li:nth-child(2) i {
+  .social-icons li:nth-child(2) i:hover {
     color: #5374bd;
   }
-  .social-icons li:nth-child(3) i {
+  .social-icons li:nth-child(3) i:hover {
     color: #8a3ab9;
   }
-  .social-icons li:nth-child(4) i {
+  .social-icons li:nth-child(4) i:hover {
     color: #1da1f2;
   }
   
@@ -78,4 +91,11 @@
   }
   .contact-info li i {
     margin-right: 5px;
+  }
+  .footer-text{
+    font-size: 14px;
+    font-style: italic;
+    /* font-weight: 700; */
+    line-height: 24px;
+    width: 255px;
   }

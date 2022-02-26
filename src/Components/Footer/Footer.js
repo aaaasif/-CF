@@ -18,9 +18,9 @@ const Footer = () => {
                             className="d-inline-block align-top"
                             alt="React Bootstrap logo"
                             />
-                            <span className='logo-name'>#CF</span>
+                            <span className='logo-name mt-3'>#CF</span>
                             </div>
-                            <div>
+                            <div className="footer-text">
                                 <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.</p>
                             </div>
                             <div>
@@ -54,7 +54,7 @@ const Footer = () => {
                 
                       <Col sm={12} md={6} lg={3}>
                           <h4 className="col-title">CUSTOMER SERVICE</h4>
-                          <ul className="Quick Links">
+                          <ul className="Quick Links information">
                             <li>
                               <a href="/home">Portfolio</a>
                             </li>
@@ -99,7 +99,7 @@ const Footer = () => {
                   </Container>
                 </div>
                 <div className="footer">
-                  <p className="text-center">Copyright &copy; All reserved</p>
+                  <p className="copyright">Copyright &copy; All reserved</p>
                 </div>
         </>
     );

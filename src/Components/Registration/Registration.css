@@ -1,32 +1,42 @@
-
+.card-title{
+  padding-top: 30px;
+  padding-left: 30px;
+}
 .left-side{
   width: 80vh;
   height: 70vh;
   background-color: #F5F5F5;
+  margin-top: 60px;
+  margin-left: 26vh;
+  overflow-x: visible;
 }
 .registred_text {
     width: 70vh;
     font-family: "Roboto Serif", sans-serif;
-    left: 0px;
+    padding-left: 20px;
     margin-top: 51px;
   }
-  .card{
+  .registered-body p{
+    font-size: 14px;
+  }
+  .card-img{
     background: transparent;
   }
+
+
   .registred_text_role {
     display: flex;
   }
   .registred_text_role div {
     width: 25px;
-    height: 17px;
+    height: 15px;
     margin-top: 10px;
     margin-right: 15px;
     background: #8dc63e;
     border-radius: 50%;
   }
   .pc_img{
-    padding: 0;
-    margin-right: 0px;
+    height: 90vh;
   }
   .btn_text_2 {
     left: 52px;
@@ -36,6 +46,11 @@
     font-style: italic;
     color: white;
     background: linear-gradient(89.87deg, #fe5266 1.09%, #fe8b15 99.39%);
+  }
+  @media only screen and (max-width: 600px) {
+    .pc_img{
+      visibility: hidden;
+    }
   }
   
   
