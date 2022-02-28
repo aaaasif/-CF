@@ -10,11 +10,11 @@ const Footer = () => {
                   <Container>
                     <Row>
                       <Col sm={12} md={6} lg={6}>
-                          <div>
+                          <div className='footer-brand'>
                           <img
                             src={logo}
-                            width="49.87px"
-                            height="48.6px"
+                            width="59px"
+                            height="59"
                             className="d-inline-block align-top"
                             alt="React Bootstrap logo"
                             />
@@ -53,7 +53,7 @@ const Footer = () => {
                       </Col>
                 
                       <Col sm={12} md={6} lg={3}>
-                          <h4 className="col-title">CUSTOMER SERVICE</h4>
+                          <h4 className="col-title">Quick Links</h4>
                           <ul className="Quick Links information">
                             <li>
                               <a href="/home">Portfolio</a>
@@ -99,7 +99,7 @@ const Footer = () => {
                   </Container>
                 </div>
                 <div className="footer">
-                  <p className="copyright">Copyright &copy; All reserved</p>
+                  <p className="copyright">©#CF2022. All rights reserved</p>
                 </div>
         </>
     );

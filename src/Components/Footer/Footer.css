@@ -1,7 +1,14 @@
-/* .logo-name{
+.footer-brand{
+  margin: 20px;
+}
+.logo-name{
+  margin-top: 1px !important;
+  font-size: 42px;
+  font-weight: bold;
+  position: absolute;
   color: white;
-  padding-top: 50px !important;
-} */
+  font-style: italic;
+}
 .footer-top p{
   color: white;
 }

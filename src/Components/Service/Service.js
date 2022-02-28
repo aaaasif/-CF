@@ -14,7 +14,7 @@ const Service = () => {
                 <h6 className='d-flex justify-content-center '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu viverra et quam tellus id posuere <br /> elementum augue ullamcorper ac egestas blandit.</h6>
                 <Row xs={1} md={2} lg={3} className="g-4">
             <Col>
-             <Card className='d-flex justify-content-center allCards'>
+             <Card className='allCards'>
               <img src={serviceOne} alt="" className='serviceImg'/>
                <Card.Body>
                 <Card.Title className='cardTitle d-flex justify-content-center'>Consulting</Card.Title>
